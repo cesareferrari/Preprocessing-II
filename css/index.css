@@ -1,3 +1,6 @@
+.bottom-dashed {
+  border-bottom: 2px dashed gray;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -201,6 +204,10 @@ nav a {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .fun-bus-image {
+  margin-bottom: 20px;
+  display: block;
 }
 .home .content-section {
   margin: 30px 0;
