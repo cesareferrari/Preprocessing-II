@@ -1,5 +1,5 @@
 .bottom-dashed {
-  border-bottom: 2px dashed gray;
+  border-bottom: 2px dashed #C0C0C0;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -206,7 +206,7 @@ nav a {
 .home header {
   width: 100%;
   margin: auto;
-  border-bottom: 2px dashed gray;
+  border-bottom: 2px dashed #C0C0C0;
 }
 .home header div {
   max-width: 800px;
