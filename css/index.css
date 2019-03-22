@@ -169,9 +169,16 @@ img {
   margin: 0 auto;
 }
 header {
+  width: 100%;
+  margin: auto;
+  border-bottom: 2px dashed gray;
+}
+header div {
+  max-width: 800px;
   display: flex;
   justify-content: space-between;
-  margin: 23px auto;
+  margin: 23px auto 0;
+  padding-bottom: 23px;
 }
 nav {
   margin-top: 13px;
