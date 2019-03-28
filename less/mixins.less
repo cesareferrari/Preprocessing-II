@@ -1,1 +1,21 @@
 // Mixins in here
+
+.bottom-dashed {
+  border-bottom: 2px dashed @silver;
+}
+
+
+.button(@border-radius; @padding; @bg-color) {
+  color: white;
+  font-size: 1.8rem;
+  background-color: @bg-color;
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+  border-radius: @border-radius;
+  padding: @padding;
+
+  @media @mobile {
+    display: block;
+  }
+}
